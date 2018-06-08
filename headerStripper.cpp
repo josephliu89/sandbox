@@ -1,6 +1,9 @@
 
 #include "IQ_Processor.h"
 // I added this to master
+// first add
+// second add
+
 using namespace hls;
 
 void headerStripper (stream<axiWord> &inDataStream, stream<axiWord> &outDataStream, stream<axiWord> &outHeaderStream) {
@@ -20,8 +23,7 @@ void headerStripper (stream<axiWord> &inDataStream, stream<axiWord> &outDataStre
 	static enum dState {D_STREAM_HEADER = 0, D_STREAM } dropState;
 
 	static unsigned int headCount = 0;
-
-
+git
 
 	if (!inDataStream.empty()){
 
