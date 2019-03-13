@@ -3,6 +3,8 @@
 size_t my_strlen(const char *s)
 {
    char *p = s;
+   
+   printf("tada!");
 
    while (*p)
       ++p;
