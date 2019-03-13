@@ -4,7 +4,7 @@ size_t y_strlen(const char *s)
 {
    char *p = s;
    
-   printf("tada!");
+   printf("tada2!");
 
    while (*p)
       ++p;
