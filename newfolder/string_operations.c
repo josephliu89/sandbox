@@ -5,6 +5,8 @@ size_t my_strlen(const char *s)
    char *p = s;
    
    printf("tada2!");
+   
+   printf("these are my new stashed changes");
 
    while (*p)
       ++p;
