@@ -1,0 +1,1 @@
+This project was used to test the bring-up of the SPI-I2C bridge using the ATSAME70N on the telemetry board as a master to simulate FEP.
